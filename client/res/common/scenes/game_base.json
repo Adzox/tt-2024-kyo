@@ -1,0 +1,34 @@
+{
+  "name": "Base",
+  "components": {
+    "Transform": { },
+    "InitScript": { }
+  },
+  "children": [
+    {
+      "name": "Game",
+      "components": {
+        "Transform": { },
+        "OnClickedSwitchSceneScript": { }
+      },
+      "children": [ ]
+    },
+    {
+      "name": "LoadingOverlay",
+      "components": {
+        "Transform": { },
+        "LoadingScreen": {
+          "fadeTime": 1.0,
+          "minDuration": 1.0
+        }
+      },
+      "children": [
+        {
+          "path": "res/common/scenes/loading.json",
+          "nameOverride": "LoadingScene",
+          "enableOverride": true
+        }
+      ]
+    }
+  ]
+}

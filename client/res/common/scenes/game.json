@@ -1,0 +1,22 @@
+{
+  "name": "Game",
+  "tags": [ "game" ],
+  "components": {
+    "Transform": { },
+    "ClickableArea": {
+      "area": [ 960, 540 ]
+    },
+    "Image": {
+      "path": "res/common/tex/game_bg.png"
+    }
+  },
+  "children": [
+    {
+      "name": "Bread",
+      "components": {
+        "Transform": { }
+      },
+      "children": [ ]
+    }
+  ]
+}

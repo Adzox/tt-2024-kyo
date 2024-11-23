@@ -1,0 +1,62 @@
+{
+  "name": "Background",
+  "enabled": false,
+  "components": {
+    "Transform": { },
+    "Image": {
+      "path": "res/common/tex/square.png",
+      "tintColor": [ 0, 0, 0, 255 ],
+      "size": [ 960, 540 ]
+    }
+  },
+  "children": [
+    {
+      "name": "Loading Icons",
+      "components": {
+        "Transform": {
+          "position": [ 880, 508 ]
+        }
+      },
+      "children": [
+        {
+          "name": "Loading Icon 1",
+          "components": {
+            "Transform": {
+              "position": [ 0, 0 ]
+            },
+            "Image": {
+              "path": "res/common/tex/icons.png",
+              "source": [ 48, 0, 16, 16 ]
+            }
+          }
+        },
+
+        {
+          "name": "Loading Icon 2",
+          "components": {
+            "Transform": {
+              "position": [ 20, 0 ]
+            },
+            "Image": {
+              "path": "res/common/tex/icons.png",
+              "source": [ 48, 0, 16, 16 ]
+            }
+          }
+        },
+
+        {
+          "name": "Loading Icon 3",
+          "components": {
+            "Transform": {
+              "position": [ 40, 0 ]
+            },
+            "Image": {
+              "path": "res/common/tex/icons.png",
+              "source": [ 48, 0, 16, 16 ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

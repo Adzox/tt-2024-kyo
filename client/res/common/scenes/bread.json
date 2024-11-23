@@ -1,0 +1,13 @@
+{
+  "name": "BreadSlice",
+  "tags": "bread",
+  "components": {
+    "Transform": { },
+    "ClickableArea": {
+      "area": [ 32, 32 ]
+    },
+    "Image": {
+      "path": "res/common/tex/bread.png"
+    }
+  }
+}

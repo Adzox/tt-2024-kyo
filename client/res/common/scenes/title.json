@@ -1,0 +1,36 @@
+{
+  "name": "Title",
+  "tags": [ "title" ],
+  "components": {
+    "Transform": { },
+    "Image": {
+      "path": "res/common/tex/bg.png",
+      "size": [ 960, 540 ]
+    }
+  },
+  "children": [
+    {
+      "name": "Panel",
+      "components": {
+        "Transform": {
+          "position": [ 330, 220 ]
+        },
+        "ClickableArea": {
+          "area": [ 330, 220 ]
+        },
+        "Image": {
+          "path": "res/common/tex/panel.png",
+          "tintColor": [ 200, 180, 45, 255 ],
+          "size": [ 300, 200 ],
+          "nineSlice": {
+            "width": 48,
+            "height": 48,
+            "topLeft": [ 16, 16 ],
+            "bottomRight": [ 32, 32 ]
+          }
+        }
+      },
+      "children": [ ]
+    }
+  ]
+}

@@ -1,3 +1,12 @@
 [submodule "client/externals/SDL"]
 	path = client/externals/SDL
 	url = git@github.com:libsdl-org/SDL.git
+[submodule "client/tools/emsdk"]
+	path = client/tools/emsdk
+	url = https://github.com/emscripten-core/emsdk.git
+[submodule "client/externals/SDL_image"]
+	path = client/externals/SDL_image
+	url = git@github.com:libsdl-org/SDL_image.git
+[submodule "client/externals/rapidjson"]
+	path = client/externals/rapidjson
+	url = git@github.com:Tencent/rapidjson.git
